@@ -1,4 +1,6 @@
 getdata-project
 ===============
 
-repo for course project for Getting and Cleaning Data
+Scripts:
+
+  1. run_analysis.r
