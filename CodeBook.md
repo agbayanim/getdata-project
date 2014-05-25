@@ -15,18 +15,18 @@ Experiments were carried out with a group of 30 volunteers within an age bracket
 *The transformations made from the original are as follows:*
 
 1. Use the file features.txt as the headers for the X_train.txt and X_test.txt data files
-2. Subset the X_train and X_test dataframes to only include the columns that contain mean() and std() in the names
+2. Subset the X_train and X_test dataframes to only include the columns that contain *mean()* and *std()* in the names
 3. Change the column names of the X_train and X_test dataframes to remove the parentheses
 4. Use the file activity_labels.txt to convert the values in y_train.txt and y_test.txt
-5. Insert the converted y_train and y_test dataframes as columns in the x_train and x_test dataframes, and call this column activity
-6. Insert subject_train.txt as a column to X_train dataframe and subject_test.txt as a column to X_test dataframe, and call thiscolumn subject.
+5. Insert the converted y_train and y_test dataframes as columns in the x_train and x_test dataframes, and call this column *activity*
+6. Insert subject_train.txt as a column to X_train dataframe and subject_test.txt as a column to X_test dataframe, and call this column *subject*
 7. Merge X_train and X_test dataframes into one dataframe and export as a csv file
 
 *To create the second dataset from the tidyset above:*
 
-1. The package reshape2 is required for this part
-2. Melt the tidy data set created above using subject and activity as ids
-3. Cast the melted data set using mean as the aggregating function
+1. The package **reshape2** is required for this part
+2. Melt the tidy data set created above using *subject* and *activity* as ids
+3. Cast the melted data set using *mean* as the aggregating function
 4. Write this data set into a csv file
 
 
