@@ -14,7 +14,7 @@ Experiments were carried out with a group of 30 volunteers within an age bracket
 
 **The transformations made from the original data set are as follows: (Note: these steps are performed automatically using run_analysis.r script file)**
 
-1. Use the file features.txt as the headers for the X_train.txt and X_test.txt data files
+1. Use the file features.txt as the column header names for the X_train.txt and X_test.txt data files
 2. Subset the X_train and X_test dataframes to only include the columns that contain *mean()* and *std()* in the names
 3. Change the column names of the X_train and X_test dataframes to remove the parentheses
 4. Use the file activity_labels.txt to convert the values in y_train.txt and y_test.txt
