@@ -3,4 +3,4 @@ getdata-project
 
 Scripts:
 
-  1. run_analysis.r
+1. run_analysis.r
