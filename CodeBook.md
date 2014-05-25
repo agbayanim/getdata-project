@@ -22,7 +22,7 @@ Experiments were carried out with a group of 30 volunteers within an age bracket
 6. Insert subject_train.txt as a column to X_train dataframe and subject_test.txt as a column to X_test dataframe, and call this column *subject*
 7. Merge X_train and X_test dataframes into one dataframe and export as a csv file
 
-**To create the second dataset from the tidyset above: (Note: these steps are performed at the end of the run_analysis.r script file)**
+**To create the second dataset from the tidy data set above: (Note: these steps are performed at the end of the run_analysis.r script file)**
 
 1. The package **reshape2** is required for this part
 2. Melt the tidy data set created above using *subject* and *activity* as ids
